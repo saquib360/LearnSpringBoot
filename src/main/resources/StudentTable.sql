@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS STUDENT;  
+CREATE TABLE STUDENT (  
+STUDENT_id INT studentId  PRIMARY KEY,  
+STUDENT_firstName VARCHAR(50),  
+STUDENT_lastName VARCHAR(50),
+STUDENT_course VARCHAR(50),
+STUDENT_gender VARCHAR(50),
+STUDENT_address VARCHAR(50),
+STUDENT_yearCourse INT,
+STUDENT_currentYear INT,
+STUDENT_addressID INT,
+STUDENT_addressname VARCHAR(50),
+STUDENT_addresscity VARCHAR(50),
+STUDENT_addressstate VARCHAR(50),
+STUDENT_addresscountry VARCHAR(50),
+STUDENT_addressPincode INT
+);
