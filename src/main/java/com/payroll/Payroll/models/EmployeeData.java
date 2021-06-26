@@ -17,6 +17,7 @@ public class EmployeeData {
 	private String fullName;
 	private int age;
 	private String designation;
+	private String imagePath;
 
 	public Long getId() {
 		return id;
@@ -66,4 +67,12 @@ public class EmployeeData {
 		this.designation = designation;
 	}
 
+	public String getImagePath() {
+		return imagePath;
+	}
+
+	public void setImagePath(String imagePath) {
+		this.imagePath = imagePath;
+	}
+	
 }
